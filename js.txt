@@ -1,0 +1,18 @@
+const a = alert
+
+let number = parseInt(Math.random()*10)
+let user = 0
+
+while(number !== user){
+  user = parseInt(prompt('adivina el numero'))
+  if(number > user){
+    a('es un numero mayor')
+  }else if(number < user){
+    a('es un numero menor')
+  }else{
+    c('Correcto, te ganaste la Loteria')
+    document.write('Correcto, te ganaste la Loteria')
+  }
+}```
+Const
+
